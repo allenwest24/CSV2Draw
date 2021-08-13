@@ -1,0 +1,19 @@
+name,id,shape,connectedTo,twoWayConnectedWith,fill,stroke,url,image
+Tessa Miller,emi,,"emo, rdo, tva",,red,,https://www.draw.io,https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png
+Edward Morrison,emo,,rdo,,white,orange,https://www.draw.io,https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png
+Alison Donovan,rdo,,tva,,green,blue,https://www.draw.io,https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png
+Evan Valet,tva,,"rdo, emo",,#d5e8d4,#82b366,https://www.draw.io,https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png
+developer,dev,,mn1,,white,black,,
+master node 1,mn1,,"wn1, wn2",,green,black,,
+worker node 1,wn1,,"mn1, usr",,blue,black,,
+worker node 2,wn2,,"mn1, usr",,blue,black,,
+user,usr,human,"wn1, wn2",,white,,,
+clients,cln,user,wbs,,,,,
+web server,wbs,cloud,aut,,blue,,,
+external services,xsv,square,,,yellow,,,
+api,api,diamond,"cac,xsv",,orange,,,
+authentication,aut,tirangle,"api,xsv,tad",,purple,,,
+cache,cac,,tad,,green,,,
+transaction database,tad,,bap,,blue,,,
+batch process,bap,,dwh,,white,,,
+dta warehouse,dwh,cylinder,,"api, cac",yellow,,,
