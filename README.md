@@ -1,7 +1,7 @@
 # Graph Auto-generation: CSV -> Diagram 
 
 This serves as the documentation to explain how to utilize the csv2Draw.py script to 
-sanitize and structure a csv output from a spreadsheet application into input that Draw.io
+sanitize and structure a csv output from a spreadsheet application into input that Draw.io/Diagrams.net
 will understand and use to create a bare-bones implementation of all specified nodes and 
 connections in a pre-arranged fashion.
 
